@@ -36,11 +36,16 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Merit Student",
+      "date": "2024-10-01",
+      "awarder": "Peking University",
+      "url": "https://www.pkuef.org/04/04/beijingdaxue2024nianduxiaojijiangxuejinhuojiangxueshengmingdan.pdf"
+    },
+    {
+      "title": "Bronze Medal (Team Round),S.-T. Yau College Student Mathematics Contest",
+      "date": "2025-06-29",
+      "awarder": "S.-T. Yau College Student Mathematics Contest Committee",
+      "url": "http://yau-contest.com/show-86-82.html"
     }
   ],
   "skills": [
