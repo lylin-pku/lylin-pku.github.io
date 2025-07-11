@@ -1,18 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yilin Liu",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "2300011302",
+    "phone": "(+86) 18190390973",
+    "url": "https://lylin-pku.github.io",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Beijing",
+      "countryCode": "CN",
+      "region": "Beijing"
     },
     "profiles": [
       {
