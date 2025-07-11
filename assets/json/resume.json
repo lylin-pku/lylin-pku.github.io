@@ -21,7 +21,7 @@
       "url": "https://www.cdqz.net",
       "studyType": "High School",
       "startDate": "2020-09-01",
-      "endDate": "2023-06-07",
+      "endDate": "2023-06-07"
     },
     {
       "institution": "Peking University, Beijing, China",
@@ -89,12 +89,14 @@
         "Neural Network",
         "Large Language Model",
         "AI for Science"
+      ]
     },
     {
       "name": "Philosophy",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Western Philosophy"
+      ]
     }
   ],
   "projects": [
