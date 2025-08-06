@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-本研笔记",
+          title: '本研笔记',
+          description: "notes for my undergraduate research project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/%E6%9C%AC%E7%A0%94%E7%AC%94%E8%AE%B0/";
             },},{
         id: 'social-email',
         title: 'email',
