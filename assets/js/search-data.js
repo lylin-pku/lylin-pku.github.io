@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-splot方法",
+        
+          title: "sPlot方法",
+        
+        description: "notes for sPlot method",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sPlot/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
