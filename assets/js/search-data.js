@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/sPlot/";
           
         },
+      },{id: "post-双光子纠缠退相干",
+        
+          title: "双光子纠缠退相干",
+        
+        description: "综合物理实验期末合作课题的理论推导",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E9%80%80%E7%9B%B8%E5%B9%B2/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
