@@ -13,7 +13,7 @@ profile:
     <p>No.5 Yiheyuan Road, Haidian District</p>
     <p>Beijing, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 latest_posts:
