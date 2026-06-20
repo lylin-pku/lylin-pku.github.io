@@ -7,28 +7,27 @@ importance: 1
 category: work
 ---
 
-文献阅读记录
 
-## 强子谱学
+### 强子谱学
 
 - [Pentaquark with strangeness Pcs](/literature-reading/Pentaquark/)
 
-## 产生与衰变
+### 产生与衰变
 
-## 粲混合和CP破坏
+### 粲混合和CP破坏
 
-## 重离子物理
+### 重离子物理
 
-## 稀有衰变(FCNC)
+### 稀有衰变(FCNC)
 
-## 半轻衰变(FCCC)
+### 半轻衰变(FCCC)
 
-## 底介子混合
+### 底介子混合
 
-## 电弱物理
+### 电弱物理
 
-## CP violating phases
+### CP violating phases
 
-## Direct CP violation
+### Direct CP violation
 
-## 探测器
+### 探测器
