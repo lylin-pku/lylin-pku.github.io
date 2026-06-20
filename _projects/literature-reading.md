@@ -1,28 +1,34 @@
 ---
 layout: page
 title: 文献阅读
-description: 按方向整理的论文阅读笔记
+description: 论文阅读笔记与专题整理
+img: assets/img/12.jpg
 importance: 1
 category: work
 ---
 
-这里可以写这个项目的总说明。
+文献阅读记录
 
-## B physics
+## 强子谱学
 
-- [Paper 1: 标题](#paper-1)
-- [Paper 2: 标题](#paper-2)
+- [Pentaquark with strangeness Pcs](/literature-reading/Pentaquark/)
 
-### Paper 1: 标题
+## 产生与衰变
 
-阅读笔记、公式、想法、问题记录。
+## 粲混合和CP破坏
 
-### Paper 2: 标题
+## 重离子物理
 
-阅读笔记、总结和后续计划。
+## 稀有衰变(FCNC)
 
-## QCD / EFT
+## 半轻衰变(FCCC)
 
-### Paper 3: 标题
+## 底介子混合
 
-内容……
+## 电弱物理
+
+## CP violating phases
+
+## Direct CP violation
+
+## 探测器
