@@ -2,7 +2,7 @@
 layout: page
 title: 文献阅读
 description: 论文阅读笔记与专题整理
-img: assets/img/12.jpg
+img: assets/img/5.jpg
 importance: 1
 category: work
 ---
