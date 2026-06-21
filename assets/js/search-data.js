@@ -100,6 +100,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-lecture-notes-on-cp-violation",
+          title: 'Lecture Notes on CP violation',
+          description: "CP破坏基本理论",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CP-violation/";
             },},{id: "projects-文献阅读",
           title: '文献阅读',
           description: "论文阅读笔记与专题整理",
