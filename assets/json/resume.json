@@ -107,7 +107,7 @@
   "projects": [
     {
       "name": "Study of CP violation in multi-body charmless bottom meson decays",
-      "summary": "Using experimental data from LHCb, this project aims to analyze the CP asymmetry in $B\\to K\\pi\\pi\\pi$, with the goal of addressing the $K\\pi$ puzzle and searching for signs of BSM. The project is expected to be supported by NSFC.",
+      "summary": "Using experimental data from LHCb, this project aims to analyze the CP asymmetry in $B\\to K\\pi\\pi\\pi$, with the goal of addressing the $K\\pi$ puzzle and searching for signs of BSM. The project is supported by NSFC.",
       "highlights": ["CP Violation", "hep-ex"],
       "startDate": "2025-06-20",
       "endDate": "2027-07-01",
