@@ -51,7 +51,7 @@ $$\Big(\gamma^0[i\frac{\partial}{\partial t}-e\phi(\vec{x},t)]-\gamma^i[i\frac{\
 
 $$\Big(\gamma^0[i\frac{\partial}{\partial t}-e\phi(-\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial (-x^i)}+eA^i(-\vec{x},t)]-m\Big)~\psi(-\vec{x},t)=0$$
 
-注意到$(\gamma^0)^2=1,\{\gamma^\mu,\gamma^\nu\}=2g^{\mu\nu}$，因此$\gamma^0\gamma^i=-\gamma^i\gamma^0$，在上式左侧乘一个$\gamma^0$
+注意到$(\gamma^0)^2=1,{\gamma^\mu,\gamma^\nu}=2g^{\mu\nu}$，因此$\gamma^0\gamma^i=-\gamma^i\gamma^0$，在上式左侧乘一个$\gamma^0$
 
 $$\Big(\gamma^0[i\frac{\partial}{\partial t}-e\phi(-\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial x^i}-eA^i(-\vec{x},t)]-m\Big)~\gamma^0\psi(-\vec{x},t)=0$$
 
@@ -66,7 +66,7 @@ $$
 考虑电荷共轭变换$e\to -e$，狄拉克方程满足
 $$\Big(\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial x^i}+eA^i(\vec{x},t)]-m\Big)~\psi_C(\vec{x},t)=0$$
 
-注意到$\gamma^0=\gamma^{0*},\gamma^1=\gamma^{1*},\gamma^{2*}=-\gamma^2,\gamma^3=\gamma^{3*}$，对原始狄拉克方程取复共轭
+注意到$\gamma^0=\gamma^{0 *},\gamma^1=\gamma^{1 *},\gamma^{2 *}=-\gamma^2,\gamma^3=\gamma^{3 *}$，对原始狄拉克方程取复共轭
 
 $$
 \Big(-\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]+\gamma^1[i\frac{\partial}{\partial x^1}+eA^1(\vec{x},t)]-\gamma^2[i\frac{\partial}{\partial x^2}+eA^2(\vec{x},t)]+\gamma^3[i\frac{\partial}{\partial x^3}+eA^3(\vec{x},t)]-m\Big)~\psi^*(\vec{x},t)=0
@@ -79,18 +79,23 @@ $$
 $$
 
 考虑一个额外相位$i$得到
+
 $$\psi_C(\vec{x},t)=i\gamma^2\psi^*(\vec{x},t)$$
+
 利用$\bar{\psi}^T=(\psi^\dagger\gamma^0)^T=\gamma^0\psi^*$得到
+
 $$
 \boxed{\psi(\vec{x},t)\xrightarrow{C}\psi_C(\vec{x},t)=i\gamma^2\gamma^0\bar{\psi}^T(\vec{x},t)=C\bar{\psi}^T(\vec{x},t)}
 $$
 
 对时间反演后的复共轭狄拉克方程左侧乘$\gamma^1\gamma^3$
+
 $$
 \Big(-\gamma^0[i\frac{\partial}{\partial (-t)}+e\phi(\vec{x},-t)]-\gamma^1[i\frac{\partial}{\partial x^1}-eA^1(\vec{x},-t)]-\gamma^2[i\frac{\partial}{\partial x^2}-eA^2(\vec{x},-t)]-\gamma^3[i\frac{\partial}{\partial x^3}-eA^3(\vec{x},-t)]-m\Big)~\gamma^1\gamma^3\psi^*(\vec{x},-t)=0
 $$
 
 得到时间反演算符
+
 $$
 \boxed{\psi(\vec{x},t)\xrightarrow{T}\psi_T(\vec{x},t)=i\gamma^1\gamma^3\psi^*(\vec{x},-t)=T\psi^*(\vec{x},-t)}
 $$
