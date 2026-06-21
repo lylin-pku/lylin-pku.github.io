@@ -9,4 +9,4 @@ category: work
 
 本课程基于N.Tuning关于CP破坏的讲义
 
-- [CP Violation in the Standard Model](/_pages/cpv_lectures/ch1/)
+- [CP Violation in the Standard Model](/cpv_lectures/ch1/)
