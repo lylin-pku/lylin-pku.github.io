@@ -35,7 +35,7 @@ $$
 
 在某一特定方向探测衰变产生的正电子，记录一定时间内的电子数. 改变磁场大小，$\mu$子的拉莫尔进动频率发生变化，自旋相对于原始入射方向的转角发生变化，由于$\mu$子的螺旋度是唯一的，探测到的电子数会随着磁场变化呈现周期性振荡. 而如果$\pi$介子衰变过程宇称守恒，$\mu$子的自旋方向均匀分布，探测到的电子数不会呈现周期变化而是一个常数. 实验结果显示$\pi$介子衰变产生$\mu$子的过程确实破坏了宇称.
 
-### 1.2 QED中的离散对称性：C,P,T
+## 1.2 QED中的离散对称性：C,P,T
 
 本小节中我们将推导$P,C,T$的算符表达式. 根据定义，变换后的波函数$\psi_P(\vec{x},t),\psi_C(\vec{x},t),\psi_T(\vec{x},t)$满足与自由场$\psi(\vec{x},t)$相同的运动方程. 
 
@@ -65,7 +65,9 @@ $$
 
 考虑电荷共轭变换$e\to -e$，狄拉克方程满足
 
-$$\Big(\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial x^i}+eA^i(\vec{x},t)]-m\Big)~\psi_C(\vec{x},t)=0$$
+$$
+\Big(\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial x^i}+eA^i(\vec{x},t)]-m\Big)~\psi_C(\vec{x},t)=0
+$$
 
 注意到$\gamma^0=\gamma^{0 *},\gamma^1=\gamma^{1 *},\gamma^2=-\gamma^{2 *},\gamma^3=\gamma^{3 *}$，对原始狄拉克方程取复共轭
 
@@ -99,4 +101,59 @@ $$
 
 $$
 \boxed{\psi(\vec{x},t)\xrightarrow{T}\psi_T(\vec{x},t)=i\gamma^1\gamma^3\psi^*(\vec{x},-t)=T\psi^*(\vec{x},-t)}
+$$
+
+对于CP操作有
+
+$$
+CP\psi(\vec{x},t)=ie^{i\phi}\gamma^2\gamma^0\psi^*(-\vec{x},t)
+$$
+
+对于CPT操作有
+
+$$
+CPT\psi(\vec{x},t)=e^{i\phi}\gamma^5\psi(-\vec{x},-t)
+$$
+
+## 1.3.标准模型与CP破坏
+
+### 1.3.1.Yukawa耦合与夸克混合
+
+标准模型拉氏量由三个部分组成
+
+$$
+\mathcal{L}_{SM}=\mathcal{L}_{kinetic}+\mathcal{L}_{Higgs}+\mathcal{L}_{Yukawa}
+$$
+
+运动学部分描述了旋量场
+
+$$
+\mathcal{L}_{kinetic}=i\bar{\psi}(\partial^\mu\gamma_\mu)\psi
+$$
+
+其中$\psi$为三代费米子，分为五类
+
+$$
+Q_{Li}^I(3,2,+1/6),~~~u_{Ri}^I(3,1,+2/3),~~~d_{Ri}^I(3,1,-1/3),~~~L_{Li}^I(1,2,-1/2),~~~l_{Ri}^I(1,1,-1)
+$$
+
+其中$Q_{Li}^I(3,2,+1/6)$代表了
+
+$$
+\begin{pmatrix}
+u_g^I&u_r^I&u_b^I \\
+d_g^I&d_r^I&d_b^I
+\end{pmatrix}_i=\begin{pmatrix}
+u_g^I&u_r^I&u_b^I \\
+d_g^I&d_r^I&d_b^I
+\end{pmatrix},
+\begin{pmatrix}
+c_g^I&c_r^I&c_b^I \\
+s_g^I&s_r^I&s_b^I
+\end{pmatrix},
+\begin{pmatrix}
+t_g^I&t_r^I&t_b^I \\
+b_g^I&b_r^I&b_b^I
+\end{pmatrix}
+
 $$
