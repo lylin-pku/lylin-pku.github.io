@@ -64,9 +64,10 @@ $$
 注意可以保留一个任意相位$e^{i\phi}\gamma^0\psi(-\vec{x},t)$.
 
 考虑电荷共轭变换$e\to -e$，狄拉克方程满足
+
 $$\Big(\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]-\gamma^i[i\frac{\partial}{\partial x^i}+eA^i(\vec{x},t)]-m\Big)~\psi_C(\vec{x},t)=0$$
 
-注意到$\gamma^0=\gamma^{0 *},\gamma^1=\gamma^{1 *},\gamma^{2 *}=-\gamma^2,\gamma^3=\gamma^{3 *}$，对原始狄拉克方程取复共轭
+注意到$\gamma^0=\gamma^{0 *},\gamma^1=\gamma^{1 *},\gamma^2=-\gamma^{2 *},\gamma^3=\gamma^{3 *}$，对原始狄拉克方程取复共轭
 
 $$
 \Big(-\gamma^0[i\frac{\partial}{\partial t}+e\phi(\vec{x},t)]+\gamma^1[i\frac{\partial}{\partial x^1}+eA^1(\vec{x},t)]-\gamma^2[i\frac{\partial}{\partial x^2}+eA^2(\vec{x},t)]+\gamma^3[i\frac{\partial}{\partial x^3}+eA^3(\vec{x},t)]-m\Big)~\psi^*(\vec{x},t)=0
