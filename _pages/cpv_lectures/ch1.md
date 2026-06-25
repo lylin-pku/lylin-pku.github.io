@@ -184,11 +184,13 @@ $$
 其中$L_a$为Gell-Mann矩阵，$\sigma_b$为Pauli矩阵. $G_a^\mu, W_b^\mu和B^\mu$分别为8个胶子场，自发对称性破缺前的三个弱相互作用玻色子和一个超荷玻色子. 
 
 $$
+\begin{aligned}
 g: (\mathbf{8},\mathbf{1})_0\\
 ~\\
 W^\pm,W^0: (\mathbf{1},\mathbf{3})_0\\
 ~\\
 B: (\mathbf{1},\mathbf{1})_0
+\end{aligned}
 $$
 
 可以写出左手夸克的带电流相互作用拉氏量
@@ -263,3 +265,66 @@ d^I_R\\ s^I_R\\ b^I_R
 \end{pmatrix}
 \end{aligned}
 $$
+
+在自发对称性破缺后
+
+$$
+\phi(x)=\begin{pmatrix}
+\phi^+\\
+\phi^0
+\end{pmatrix}\xrightarrow{sym.breaking}\frac{1}{\sqrt{2}}\begin{pmatrix}
+0\\
+v+h(x)
+\end{pmatrix}
+$$
+
+得到了费米子场的质量项
+
+$$
+\begin{aligned}
+-\mathcal{L}_{Yukawa}^{quarks}
+&= Y_{ij}^d~\overline{Q^I_{Li}}~\phi~d^I_{Rj} + Y_{ij}^u~\overline{Q^I_{Li}}~\tilde{\phi}~u^I_{Rj} + h.c. \\
+&= Y_{ij}^d~\overline{d^I_{Li}}~\frac{v}{\sqrt{2}}~d^I_{Rj} + Y_{ij}^u~\overline{u^I_{Li}}~\frac{v}{\sqrt{2}}~u^I_{Rj} + h.c. + \mathrm{interaction terms} \\
+&= M_{ij}^d~\overline{d^I_{Li}}~d^I_{Rj} + M_{ij}^u~\overline{u^I_{Li}}~u^I_{Rj} + h.c. + \mathrm{interaction terms}
+\end{aligned}
+$$
+
+为了获得物理的质量项，需要将$M_{ij}$对角化
+
+$$
+\begin{aligned}
+M^d_{diag}=V^d_LM^dV^{d\dagger}_R \\
+M^u_{diag}=V^u_LM^uV^{u\dagger}_R
+\end{aligned}
+$$
+
+拉氏量重写为
+
+$$
+\begin{aligned}
+-\mathcal{L}_{Yukawa}^{quarks}
+&= \overline{d^I_{Li}}~M_{ij}^d~d^I_{Rj} + \overline{u^I_{Li}}~M_{ij}^u~u^I_{Rj} + h.c. + \mathrm{interaction terms} \\
+&= \overline{d^I_{Li}}~V^{d\dagger}_L~V^d_L~M_{ij}^d~V^{d\dagger}_R~V^d_R~d^I_{Rj} + \overline{u^I_{Li}}~V^{u\dagger}_L~V^u_L~M_{ij}^u~V^{u\dagger}_R~V^u_R~u^I_{Rj} + h.c. + \mathrm{interaction terms} \\
+&= \overline{d_{Li}}~(M_{ij}^d)_{diag}~d_{Rj} + \overline{u_{Li}}~(M_{ij}^u)_{diag}~u_{Rj} + h.c. + \mathrm{interaction terms}
+\end{aligned}
+$$
+
+由此得到夸克质量本征态与相互作用本征态的关系
+
+$$
+\begin{aligned}
+d_{Li}=(V_L^d)_{ij}d^I_{Lj}~~~d_{Ri}=(V_R^d)_{ij}d^I_{Rj} \\
+u_{Li}=(V_L^u)_{ij}u^I_{Lj}~~~u_{Ri}=(V_R^u)_{ij}u^I_{Rj}
+\end{aligned}
+$$
+
+注意到物理传播的夸克都是质量本征态，并且右手夸克不参与弱相互作用，那么左手弱带电流相互作用写为
+
+$$
+\begin{aligned}
+\mathcal{L}_{c.c.}&=\frac{g}{\sqrt{2}}\overline{u^I_{iL}}\gamma_\mu W^{-\mu}d^I_{iL}+\frac{g}{\sqrt{2}}\overline{d^I_{iL}}\gamma_\mu W^{+\mu}u^I_{iL}+... \\
+&=\frac{g}{\sqrt{2}}\overline{u_{iL}}(V_L^uV_L^{d\dagger})_{ij} \gamma_\mu W^{-\mu}d_{iL}+\frac{g}{\sqrt{2}}\overline{d_{iL}}(V_L^dV_L^{u\dagger})_{ij}\gamma_\mu W^{+\mu}u_{iL}+...
+\end{aligned}
+$$
+
+其中幺正矩阵$(V_L^uV_L^{d\dagger})_{ij}$即为Cabibbo-Kobayashi-Maskawa矩阵.
