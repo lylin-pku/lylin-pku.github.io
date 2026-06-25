@@ -119,7 +119,7 @@ $$
 
 ### 1.3.1.Yukawa耦合与夸克混合
 
-标准模型拉氏量由三个部分组成
+标准模型包括了$SU(3)\times SU(2)\times U(1)$规范相互作用，拉氏量由三个部分组成
 
 $$
 \mathcal{L}_{SM}=\mathcal{L}_{kinetic}+\mathcal{L}_{Higgs}+\mathcal{L}_{Yukawa}
@@ -137,7 +137,17 @@ $$
 Q_{Li}^I(3,2,+1/6),~~~u_{Ri}^I(3,1,+2/3),~~~d_{Ri}^I(3,1,-1/3),~~~L_{Li}^I(1,2,-1/2),~~~l_{Ri}^I(1,1,-1)
 $$
 
-其中$Q_{Li}^I(3,2,+1/6)$代表了
+$Q_{Li}$代表三代左手夸克，参与强相互作用，对应于$\mathfrak{su}(3)$的标准表示$\mathbf{3}$；同时参与弱相互作用，对应于$\mathfrak{su}(2)$的标准表示$\mathbf{2}$；对应的$\mathfrak{u}(1)$超荷为$1/6$.
+
+$u_{Ri}$代表三代右手上夸克，参与强相互作用，对应于$\mathfrak{su}(3)$的标准表示$\mathbf{3}$；但不参与弱相互作用，对应于$\mathfrak{su}(2)$的平庸表示$\mathbf{1}$；对应的$\mathfrak{u}(1)$超荷为$2/3$.
+
+$d_{Ri}$代表三代右手下夸克，参与强相互作用，对应于$\mathfrak{su}(3)$的标准表示$\mathbf{3}$；但不参与弱相互作用，对应于$\mathfrak{su}(2)$的平庸表示$\mathbf{1}$；对应的$\mathfrak{u}(1)$超荷为$-1/3$.
+
+$L_{Li}$代表三代左手轻子，包括左手的$e,\mu,\tau$和对应的左手中微子，不参与强相互作用，对应于$\mathfrak{su}(3)$的平庸表示$\mathbf{1}$；参与弱相互作用，对应于$\mathfrak{su}(2)$的标准表示$\mathbf{2}$；对应的$\mathfrak{u}(1)$超荷为$-1/2$.
+
+$l_{Ri}$代表三代右手轻子，包括右手的$e,\mu,\tau$，不参与强相互作用，对应于$\mathfrak{su}(3)$的平庸表示$\mathbf{1}$；也不参与弱相互作用，对应于$\mathfrak{su}(2)$的平庸表示$\mathbf{1}$；对应的$\mathfrak{u}(1)$超荷为$-1$.
+
+例如其中$Q_{Li}^I(3,2,+1/6)$代表了
 
 $$
 \begin{pmatrix}
@@ -156,4 +166,100 @@ t_g^I&t_r^I&t_b^I \\
 b_g^I&b_r^I&b_b^I
 \end{pmatrix}
 
+$$
+
+
+规范相互作用来源于将动能项的导数替换为协变导数
+
+$$
+\mathcal{L}_{kinematic}=i\bar{\psi}(D^\mu\gamma_\mu)\psi
+$$
+
+标准模型中协变导数定义为
+
+$$
+D^\mu=\partial^\mu+ig_sG^\mu_aL_a+igW_b^\mu\sigma_b+ig'B^\mu Y
+$$
+
+其中$L_a$为Gell-Mann矩阵，$\sigma_b$为Pauli矩阵. $G_a^\mu, W_b^\mu和B^\mu$分别为8个胶子场，自发对称性破缺前的三个弱相互作用玻色子和一个超荷玻色子. 
+
+$$
+g: (\mathbf{8},\mathbf{1})_0\\
+~\\
+W^\pm,W^0: (\mathbf{1},\mathbf{3})_0\\
+~\\
+B: (\mathbf{1},\mathbf{1})_0
+$$
+
+可以写出左手夸克的带电流相互作用拉氏量
+
+$$
+\begin{aligned}
+\mathcal{L}_{kinematic,weak}(Q_L) 
+&=i\overline{Q^I_{Li}}\gamma_\mu(\partial^\mu+\frac{i}{2}gW^\mu_b\sigma_b)Q^I_{Li} \\ 
+&=i\overline{(u~~d)^I_{iL}}\gamma_\mu(\partial^\mu+\frac{i}{2}gW^\mu_b\sigma_b)
+\begin{pmatrix}
+u \\
+d
+\end{pmatrix}
+^I_{Li}
+\end{aligned}
+$$
+
+$W$和$Z$玻色子通过自发对称性破缺获得质量. 考虑希格斯场
+
+$$
+H: (\mathbf{1},\mathbf{2})_{\frac{1}{2}}
+$$
+
+其拉氏量可以写为
+
+$$
+\mathcal{L}_{Higgs}=(D_\mu\phi)^\dagger(D^\mu\phi)-\mu^2\phi^\dagger\phi-\lambda(\phi^\dagger\phi)^2
+$$
+
+其中$\phi$是一个同位旋二重态
+
+$$
+\phi(x)=
+\begin{pmatrix}
+\phi^+ \\
+\phi^0
+\end{pmatrix}
+$$
+
+Higgs场与规范玻色子的相互作用来源于协变导数，而Higgs场与费米子的相互作用则来源于所谓的Yukawa相互作用
+
+$$
+\begin{aligned}
+-\mathcal{L}_{Yukawa} 
+&= Y_{ij}\overline{\psi_{Li}}\phi\psi_{Rj}+h.c. \\
+&= Y_{ij}^d~\overline{Q^I_{Li}}~\phi~d^I_{Rj} + Y_{ij}^u~\overline{Q^I_{Li}}~\tilde{\phi}~u^I_{Rj}+ Y^l_{ij}~\overline{L^I_{Li}}~\phi~l^I_{Rj} +h.c.
+\end{aligned}
+$$
+
+其中
+
+$$
+\tilde{\phi}=i\sigma_2\phi^*
+$$
+
+矩阵$Y_{ij}$是味空间中任意的复矩阵，给出了不同代费米子(轻子)之间的耦合，或夸克(轻子)混合. Yukawa耦合实际上给出了费米子的质量项，例如由于中微子不存在右手分量，所以在标准模型框架下中微子就没有质量.
+
+下面我们关注味物理相关的项$Y_{ij}^d~\overline{Q^I_{Li}}~\phi~d^I_{Rj}$.
+
+$$
+\begin{aligned}
+Y_{ij}^d~\overline{Q^I_{Li}}~\phi~d^I_{Rj}
+&= Y_{ij}^d~\overline{(u~~d)^I_{Li}}~\phi~d^I_{Rj}\\
+&=
+\begin{pmatrix}
+Y_{11}~\overline{(u~~d)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} & Y_{12}~\overline{(u~~d)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} & Y_{13}~\overline{(u~~d)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} \\
+Y_{21}~\overline{(c~~s)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix}& Y_{22}~\overline{(c~~s)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} & Y_{11}~\overline{(u~~d)^I_L}\begin{pmatrix}\phi^+\\ \phi\end{pmatrix} \\
+Y_{31}~\overline{(t~~b)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} & Y_{32}~\overline{(t~~b)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix} & Y_{33}~\overline{(t~~b)^I_L}\begin{pmatrix}\phi^+\\ \phi^0\end{pmatrix}
+\end{pmatrix}\cdot
+\begin{pmatrix}
+d^I_R\\ s^I_R\\ b^I_R
+\end{pmatrix}
+\end{aligned}
 $$
