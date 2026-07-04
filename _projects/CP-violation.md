@@ -10,3 +10,4 @@ category: work
 本课程基于N.Tuning关于CP破坏的讲义
 
 - [CP Violation in the Standard Model](/cpv_lectures/ch1/)
+- [The Cabibbo-Kobayashi-Maskawa Matrix](/cpv_lectures/ch2/)

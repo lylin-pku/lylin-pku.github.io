@@ -328,3 +328,46 @@ $$
 $$
 
 其中幺正矩阵$(V_L^uV_L^{d\dagger})_{ij}$即为Cabibbo-Kobayashi-Maskawa矩阵.
+
+通常约定上夸克与质量本征态对齐，则相互作用本征态与质量本征态的关系(注意我们在实验上无法直接测量到相互作用本征态的粒子，所以相互作用本征态原则上可以自由选择相位)：
+
+$$
+\begin{pmatrix}
+d^I \\
+s^I \\
+b^I
+\end{pmatrix}
+=
+\begin{pmatrix}
+V_{ud}&V_{us}&V_{ub} \\
+V_{cd}&V_{cs}&V_{cb} \\
+V_{td}&V_{ts}&V_{tb}
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+d \\
+s \\
+b
+\end{pmatrix}
+$$
+
+### 1.3.2 $C\!P$ 破坏
+
+$C\!P$ 破坏在复Yukawa耦合中出现. 观察Yukawa耦合的拉氏量
+
+$$
+\begin{aligned}
+-\mathcal{L}_{Yukawa} 
+&= Y_{ij}~\overline{\psi_{Li}}~\phi~\psi_{Rj}+h.c. \\
+&= Y_{ij}~\overline{\psi_{Li}}~\phi~\psi_{Rj} + Y_{ij}^*~\overline{\psi_{Rj}}~\phi^\dagger~\psi_{Li}
+\end{aligned}
+$$
+
+注意到 $C\!P$ 变换作用于旋量场
+
+$$
+C\!P (\overline{\psi_{Li}}\phi\psi_{Rj}) =\overline{\psi_{Rj}}\phi^\dagger\psi_{Li}
+$$
+
+因此当且仅当 $Y_{ij}=Y^*_{ij}$ 时 $\mathcal{L}_{Yukawa}$ 保持不变. 类似地，带电流弱相互作用同样只在 $Y_{ij}=Y_{ij}^*$ 时保持不变. 因此，标准模型框架下 $C\!P$ 破坏的来源是CKM矩阵的复数结构.
+ 
