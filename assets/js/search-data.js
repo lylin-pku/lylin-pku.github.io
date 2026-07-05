@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-splot方法",
+            },{id: "post-标准模型拉氏量",
+        
+          title: "标准模型拉氏量",
+        
+        description: "Lagranian of Standard Model",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/%E6%A0%87%E5%87%86%E6%A8%A1%E5%9E%8B/";
+          
+        },
+      },{id: "post-splot方法",
         
           title: "sPlot方法",
         
