@@ -351,7 +351,7 @@ b
 \end{pmatrix}
 $$
 
-### 1.3.2 $C\!P$ 破坏
+### 1.3.2 $CP$ 破坏
 
 $C\!P$ 破坏在复Yukawa耦合中出现. 观察Yukawa耦合的拉氏量
 
@@ -363,11 +363,11 @@ $$
 \end{aligned}
 $$
 
-注意到 $C\!P$ 变换作用于旋量场
+注意到 $CP$ 变换作用于旋量场
 
 $$
-C\!P (\overline{\psi_{Li}}\phi\psi_{Rj}) =\overline{\psi_{Rj}}\phi^\dagger\psi_{Li}
+CP (\overline{\psi_{Li}}\phi\psi_{Rj}) =\overline{\psi_{Rj}}\phi^\dagger\psi_{Li}
 $$
 
-因此当且仅当 $Y_{ij}=Y^*_{ij}$ 时 $\mathcal{L}_{Yukawa}$ 保持不变. 类似地，带电流弱相互作用同样只在 $Y_{ij}=Y_{ij}^*$ 时保持不变. 因此，标准模型框架下 $C\!P$ 破坏的来源是CKM矩阵的复数结构.
+因此当且仅当 $Y_{ij}=Y^{*}_{ij}$ 时 $\mathcal{L}_{Yukawa}$ 保持不变. 类似地，带电流弱相互作用同样只在 $Y_{ij}=Y_{ij}^{*}$ 时保持不变. 因此，标准模型框架下 $CP$ 破坏的来源是CKM矩阵的复数结构.
  
