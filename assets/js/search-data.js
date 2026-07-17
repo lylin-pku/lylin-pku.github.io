@@ -121,6 +121,11 @@ ninja.data = [{
           description: "论文阅读笔记与专题整理",
           section: "Projects",handler: () => {
               window.location.href = "/projects/literature-reading/";
+            },},{id: "projects-run2-starterkit",
+          title: 'Run2 Starterkit',
+          description: "notes for run2 starterkit",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/run2-starterkit/";
             },},{id: "projects-本研笔记",
           title: '本研笔记',
           description: "notes for my undergraduate research project",
