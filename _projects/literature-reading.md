@@ -8,6 +8,10 @@ category: work
 ---
 
 
+### AI4HEP
+
+- [AI Agent Can Already Autonomously Perform Experimental High Energy Physics](/literature-reading/AI4HEP/JFC-MIT/)
+
 ### 强子谱学
 
 - [Pentaquark with strangeness Pcs](/literature-reading/Pentaquark/)
