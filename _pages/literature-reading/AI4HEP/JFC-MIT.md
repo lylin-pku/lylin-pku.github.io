@@ -5,7 +5,6 @@ permalink: /literature-reading/AI4HEP/JFC-MIT/
 nav: false
 ---
 
-### **AI Agent Can Already Autonomously Perform Experimental High Energy Physics**
 
 本文原链接[https://arxiv.org/abs/2603.20179v1](https://arxiv.org/abs/2603.20179v1)
 
@@ -46,4 +45,9 @@ $JFC$框架大致可以分为三个独立的部分：
 
 
 #### **2 Related work**
+
+##### 2.1 Agents for data analysis
+
+Gendreau-Distler 等人提出了一个基于LLM-agent驱动的数据分析框架。他们将一个基于LLM的agent与Snakemake工作流管理器结合，自动化地利用ATLAS的开放数据集测量了Higgs到双光子的产生截面。工作流管理器执行可重复性和确定性，而agent产生、执行并迭代修改分析代码。作者对多个主流大语言模型进行了基准测试。值得注意的是，作者指出“多步任务规划超出了当前系统的能力”，并提到agent是工作在一个固有的、预先定义好的框架下执行任务。
+
 
