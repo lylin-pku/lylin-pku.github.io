@@ -48,6 +48,37 @@ $JFC$框架大致可以分为三个独立的部分：
 
 ##### 2.1 Agents for data analysis
 
-Gendreau-Distler 等人提出了一个基于LLM-agent驱动的数据分析框架。他们将一个基于LLM的agent与Snakemake工作流管理器结合，自动化地利用ATLAS的开放数据集测量了Higgs到双光子的产生截面。工作流管理器执行可重复性和确定性，而agent产生、执行并迭代修改分析代码。作者对多个主流大语言模型进行了基准测试。值得注意的是，作者指出“多步任务规划超出了当前系统的能力”，并提到agent是工作在一个固有的、预先定义好的框架下执行任务。
+Gendreau-Distler[10]等人提出了一个基于LLM-agent驱动的数据分析框架。他们将一个基于LLM的agent与Snakemake工作流管理器结合，自动化地利用ATLAS的开放数据集测量了Higgs到双光子的产生截面。工作流管理器执行可重复性和确定性，而agent产生、执行并迭代修改分析代码。作者对多个主流大语言模型进行了基准测试。值得注意的是，作者指出“多步任务规划超出了当前系统的能力”，并提到agent是工作在一个固有的、预先定义好的框架下执行任务。
 
 
+Diefenbacher[8]等人利用LHC Olympics数据集研究了大模型agent在反常探测方面的表现，证明了agents可以开发和测试与人类提出的方法相媲美的实验分析方法。
+
+Menzo等人提出了HEPTAPOD框架，这一框架让大语言模型能够与主流的HEP攻击交互，构建模拟工作流，并管理多步的研究流程。HEPTAPOD专注于上游模拟工作以及工作流管理而非端到端的数据分析，强调整个过程中人为监督的作用。
+
+Badea等人利用LEP的开放数据集与AI-物理学家agent合作，进行了一个概念验证测量。他们的方法依赖于一个迭代的人在回路中的循环，在这个循环中，物理学家在每个agent尝试之后提供详细的反馈，引导分析走向正确的结果。
+
+##### 2.2 Agents for simulation and experiment design
+
+GRACE专注于上游的实验设计问题而非数据分析。在给定一个自然语言的prompt或者实验论文，GRACE可以提取出这个实验的结构，构造模拟，并利用MC对实验设计进行优化。
+
+##### 2.3 LLM-assisted toolkits
+
+CoLLM提供了一个端到端的管道，从纯语言分析规范到经过训练的深度学习分类器，用于对撞机分析。虽然它使用大语言模型在物理约束下生成分析代码，但它更像是一个带有图形用户界面的人工智能辅助工具包，而不是一个完全自主的代理，并且专门关注分析的深度学习分类步骤。
+
+##### 2.4 Benchmarks and community efforts
+
+CelloAI基准测试提供了一个用于评估HEP环境下的AI助手的框架，重点关注代码文档和生成任务。值得注意的是，CelloAI基准套件尚未包括物理分析任务，使得本领域在评估AI在高能物理最具有潜力的应用上存在一个巨大的gap。
+
+##### 2.5 Knowledge retrieval for physics analysis
+
+对于自动化分析agent而言，一个关键的困难在于如何从已有的文献中提取并应用已有的知识。标准的检索增强生成(Retrieval-Augmented Generation, RAG)在读取科学论文时存在一定的困难，因为在这类文章中，关联的信息通常会遍布不同的小节、图片甚至多篇文章。
+
+##### 2.6 Summary and gaps
+
+下面这张表总结了以上讨论的所有agent系统。
+
+<img src="{{ '/assets/images/literature-reading/JFC-MIT-1.png' | relative_url }}" alt="JFC-MIT-1" width="350">
+
+现有的agent系统呈现出一下特点：首先，现有的大部分agent系统都是工作在预先规划好的框架下的，仅在有限的地方进行coding；第二，目前没有现存的系统能够将自动化多步骤规划、专业知识检索和多智能体review结合在一起；第三，高能物理实验领域缺乏对现实的、端到端的物理分析智能体的基准测试(benchmark)，基于以上所有困境，MIT的研究人员提出了后文中的$JFC$框架。
+
+#### **3 The $JFC$ Framework**
