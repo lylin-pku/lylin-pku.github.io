@@ -82,3 +82,9 @@ CelloAI基准测试提供了一个用于评估HEP环境下的AI助手的框架�
 现有的agent系统呈现出一下特点：首先，现有的大部分agent系统都是工作在预先规划好的框架下的，仅在有限的地方进行coding；第二，目前没有现存的系统能够将自动化多步骤规划、专业知识检索和多智能体review结合在一起；第三，高能物理实验领域缺乏对现实的、端到端的物理分析智能体的基准测试(benchmark)，基于以上所有困境，MIT的研究人员提出了后文中的$JFC$框架。
 
 #### **3 The $JFC$ Framework**
+
+$JFC$是一个自动执行高能物理实验分析的智能体框架。一个协调智能体(orchestrator agent)将不同的执行和审查工作在不同的阶段(phase)分配给不同的智能体。每个phase都会生成一个文稿并在进入下一个phase前必须要通过审查。
+
+##### 3.1 Architecture overview
+
+$JFC$框架基于Claude Code，底层模型使用的是claude-opus-4-6。

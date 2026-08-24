@@ -24,6 +24,8 @@ category: work
 
 ### 稀有衰变(FCNC)
 
+- [Rare B decays as tests of the Standard Model](/literature-reading/RareDecay/RareBdecaysastestsoftheStandardModel/)
+
 ### 半轻衰变(FCCC)
 
 ### 底介子混合
